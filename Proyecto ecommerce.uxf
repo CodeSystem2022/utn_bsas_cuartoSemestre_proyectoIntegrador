@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>180</x>
+      <x>70</x>
       <y>190</y>
       <w>210</w>
       <h>220</h>
@@ -40,18 +40,18 @@ Contructor todos los campos</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
+      <x>160</x>
       <y>40</y>
-      <w>110</w>
+      <w>220</w>
       <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;150.0;90.0;10.0</additional_attributes>
+    <additional_attributes>10.0;150.0;200.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>470</x>
+      <x>330</x>
       <y>190</y>
       <w>210</w>
       <h>220</h>
@@ -75,10 +75,74 @@ Contructor todos los campos</panel_attributes>
     <coordinates>
       <x>350</x>
       <y>40</y>
-      <w>240</w>
+      <w>100</w>
       <h>170</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
-    <additional_attributes>220.0;150.0;10.0;10.0</additional_attributes>
+    <additional_attributes>80.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>190</y>
+      <w>210</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Orden&gt;&gt;
+--
+id: Integer
+numero: String 
+fechaCreacion: Date 
+fechaRecibida: Date
+total: double
+--
+Getters, setters
+Contructor vacio
+Contructor todos los campos</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>800</x>
+      <y>190</y>
+      <w>210</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;DetalleOrden&gt;&gt;
+--
+id: Integer
+nombre: String 
+cantidad: double 
+precio: double
+total: double
+--
+Getters, setters
+Contructor vacio
+Contructor todos los campos</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>40</y>
+      <w>330</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>310.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>40</y>
+      <w>600</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>580.0;150.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
