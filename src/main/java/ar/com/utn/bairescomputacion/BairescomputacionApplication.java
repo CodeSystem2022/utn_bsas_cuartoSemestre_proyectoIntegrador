@@ -1,13 +1,13 @@
-package com.utnbuenosaires.backcompubaires;
+package ar.com.utn.bairescomputacion;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BackCompubairesApplication {
+public class BairescomputacionApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BackCompubairesApplication.class, args);
+		SpringApplication.run(BairescomputacionApplication.class, args);
 	}
 
 }
