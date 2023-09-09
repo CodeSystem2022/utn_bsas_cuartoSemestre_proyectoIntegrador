@@ -1,10 +1,10 @@
-package com.utnbuenosaires.backcompubaires;
+package ar.com.utn.bairescomputacion;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BackCompubairesApplicationTests {
+class BairescomputacionApplicationTests {
 
 	@Test
 	void contextLoads() {
