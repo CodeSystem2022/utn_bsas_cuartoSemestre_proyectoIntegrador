@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>180</x>
+      <y>190</y>
+      <w>210</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Usuario&gt;&gt;
+--
+id: Integer
+nombre: String 
+username: String 
+email: String 
+direccion: String 
+telefono: String 
+tipo: String 
+password: String
+--
+Getters, setters
+Contructor vacio
+Contructor todos los campos</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>310</x>
+      <y>20</y>
+      <w>100</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Model
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>40</y>
+      <w>110</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;150.0;90.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>470</x>
+      <y>190</y>
+      <w>210</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Producto&gt;&gt;
+--
+id: Integer
+nombre: String 
+descripcion: String 
+imagen: String 
+precio: double
+cantidad: int
+--
+Getters, setters
+Contructor vacio
+Contructor todos los campos</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>350</x>
+      <y>40</y>
+      <w>240</w>
+      <h>170</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>220.0;150.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
