@@ -1,4 +1,4 @@
-package ar.com.utn.bairescomputacion.model;
+package com.utnbuenosaires.backcompubaires.model;
 
 import jakarta.persistence.*;
 

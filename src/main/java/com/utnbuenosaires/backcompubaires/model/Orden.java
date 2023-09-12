@@ -1,5 +1,6 @@
-package ar.com.utn.bairescomputacion.model;
+package com.utnbuenosaires.backcompubaires.model;
 
+import ar.com.utn.bairescomputacion.model.Usuario;
 import jakarta.persistence.*;
 
 import java.util.Date;
