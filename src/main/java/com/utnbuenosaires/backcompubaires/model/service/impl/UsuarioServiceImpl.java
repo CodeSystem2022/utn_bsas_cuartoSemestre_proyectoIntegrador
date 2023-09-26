@@ -1,7 +1,6 @@
 package com.utnbuenosaires.backcompubaires.model.service.impl;
 
 import com.utnbuenosaires.backcompubaires.model.dto.ResponseDto;
-import com.utnbuenosaires.backcompubaires.model.dto.UserDto;
 import com.utnbuenosaires.backcompubaires.model.dto.UsuarioDto;
 import com.utnbuenosaires.backcompubaires.model.entity.Usuario;
 import com.utnbuenosaires.backcompubaires.model.repository.IUsuarioRepository;
